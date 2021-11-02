@@ -1,4 +1,3 @@
-import ctypes
 import os
 import tkinter as tk
 import codecs
