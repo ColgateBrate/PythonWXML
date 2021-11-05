@@ -17,6 +17,8 @@ def CreateBTN():
         errorCode["text"] = "Insert SSID!"
         errorCode["fg"] = "red"
 
+# Convert from Num-String into utf-8 um auf Hex zu Convertieren, b' und ' rausgenommen
+        
     else:
         SSIDText = SSIDTextbox.get()
         SSIDNum = bytes(SSIDText, 'utf-8')
